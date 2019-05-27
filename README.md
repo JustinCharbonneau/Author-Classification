@@ -29,6 +29,7 @@ $ python3 app.py
 Enter the text you want to classify.
 
 Next, you can choose using four different classification algorithms by entering the abreviation of the algorithm.
+This will upload the pickle file containing the serialized model.
 
 - Decision Tree (DT)
 - K-Nearest Neighbor (KNN)
