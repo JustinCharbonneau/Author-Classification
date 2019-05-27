@@ -36,14 +36,14 @@ Next, the application will clean the input by tokenizing the text, removing stop
 
 Now, you can choose between four different classification algorithms by entering the abreviation of the algorithm. This will upload the pickle file containing the serialized model.
 
-```
-Please enter a model (MLP, DT, SVM, KNN): MLP
-```
-
 - Decision Tree (DT)
 - K-Nearest Neighbor (KNN)
 - Support Vector Machine (SVM)
 - Multi Layer Perceptron (MLP)
+
+```
+Please enter a model (MLP, DT, SVM, KNN): MLP
+```
 
 ```
 The author is: shakespeare
