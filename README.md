@@ -32,8 +32,9 @@ Enter the text you want to classify.
 Enter your sentence : I, if I be aliue, and your minde hold, and your\nDinner worth the eating\n\n   Cassi.
 ```
 
-Next, you can choose using four different classification algorithms by entering the abreviation of the algorithm.
-This will upload the pickle file containing the serialized model.
+Next, the application will clean the input by tokenizing the text, removing stopwords, lemmatizing them and then vectorizing them using a the fitted TF-IDF and Count vectorizers. 
+
+Now, you can choose between four different classification algorithms by entering the abreviation of the algorithm. This will upload the pickle file containing the serialized model.
 
 ```
 Please enter a model (MLP, DT, SVM, KNN): MLP
