@@ -28,10 +28,24 @@ $ python3 app.py
 
 Enter the text you want to classify.
 
+```
+Enter your sentence : I, if I be aliue, and your minde hold, and your\nDinner worth the eating\n\n   Cassi.
+```
+
 Next, you can choose using four different classification algorithms by entering the abreviation of the algorithm.
 This will upload the pickle file containing the serialized model.
+
+```
+Please enter a model (MLP, DT, SVM, KNN): MLP
+```
 
 - Decision Tree (DT)
 - K-Nearest Neighbor (KNN)
 - Support Vector Machine (SVM)
 - Multi Layer Perceptron (MLP)
+
+```
+The author is: shakespeare
+```
+
+Voilà!
