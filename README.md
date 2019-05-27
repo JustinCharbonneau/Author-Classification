@@ -29,7 +29,7 @@ $ python3 app.py
 Enter the text you want to classify.
 
 ```
-Enter your sentence : I, if I be aliue, and your minde hold, and your\nDinner worth the eating\n\n   Cassi.
+Enter your sentence: I, if I be aliue, and your minde hold, and your\nDinner worth the eating\n\n   Cassi.
 ```
 
 Next, the application will clean the input by tokenizing the text, removing stopwords, lemmatizing them and then vectorizing them using a the fitted TF-IDF and Count vectorizers. 
